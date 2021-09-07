@@ -12,3 +12,17 @@ C:\Tiplu\Neuer Ordner\Tiplu.Dojo\dojo\obj\Debug\netcoreapp3.1\dojo.csproj.CoreCo
 C:\Tiplu\Neuer Ordner\Tiplu.Dojo\dojo\obj\Debug\netcoreapp3.1\dojo.dll
 C:\Tiplu\Neuer Ordner\Tiplu.Dojo\dojo\obj\Debug\netcoreapp3.1\dojo.pdb
 C:\Tiplu\Neuer Ordner\Tiplu.Dojo\dojo\obj\Debug\netcoreapp3.1\dojo.genruntimeconfig.cache
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\bin\Debug\netcoreapp3.1\dojo.exe
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\bin\Debug\netcoreapp3.1\dojo.deps.json
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\bin\Debug\netcoreapp3.1\dojo.runtimeconfig.json
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\bin\Debug\netcoreapp3.1\dojo.runtimeconfig.dev.json
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\bin\Debug\netcoreapp3.1\dojo.dll
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\bin\Debug\netcoreapp3.1\dojo.pdb
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\obj\Debug\netcoreapp3.1\dojo.csproj.AssemblyReference.cache
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\obj\Debug\netcoreapp3.1\dojo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\obj\Debug\netcoreapp3.1\dojo.AssemblyInfoInputs.cache
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\obj\Debug\netcoreapp3.1\dojo.AssemblyInfo.cs
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\obj\Debug\netcoreapp3.1\dojo.csproj.CoreCompileInputs.cache
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\obj\Debug\netcoreapp3.1\dojo.dll
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\obj\Debug\netcoreapp3.1\dojo.pdb
+C:\Tiplu\DevDa\Tiplu.Dojo\dojo\obj\Debug\netcoreapp3.1\dojo.genruntimeconfig.cache

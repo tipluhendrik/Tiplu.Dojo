@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\Dojo.Tests\\Dojo.Tests.csproj": {}
+    "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\Dojo.Tests\\Dojo.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\Dojo.Tests\\Dojo.Tests.csproj": {
+    "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\Dojo.Tests\\Dojo.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\Dojo.Tests\\Dojo.Tests.csproj",
+        "projectUniqueName": "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\Dojo.Tests\\Dojo.Tests.csproj",
         "projectName": "Dojo.Tests",
-        "projectPath": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\Dojo.Tests\\Dojo.Tests.csproj",
-        "packagesPath": "C:\\Users\\TobiasAlscher\\.nuget\\packages\\",
-        "outputPath": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\Dojo.Tests\\obj\\",
+        "projectPath": "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\Dojo.Tests\\Dojo.Tests.csproj",
+        "packagesPath": "C:\\Users\\AlexanderKlintworth\\.nuget\\packages\\",
+        "outputPath": "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\Dojo.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TobiasAlscher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AlexanderKlintworth\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/Tiplu/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\dojo\\dojo.csproj": {
-                "projectPath": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\dojo\\dojo.csproj"
+              "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\dojo\\dojo.csproj": {
+                "projectPath": "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\dojo\\dojo.csproj"
               }
             }
           }
@@ -88,20 +89,20 @@
         }
       }
     },
-    "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\dojo\\dojo.csproj": {
+    "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\dojo\\dojo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\dojo\\dojo.csproj",
+        "projectUniqueName": "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\dojo\\dojo.csproj",
         "projectName": "dojo",
-        "projectPath": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\dojo\\dojo.csproj",
-        "packagesPath": "C:\\Users\\TobiasAlscher\\.nuget\\packages\\",
-        "outputPath": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\dojo\\obj\\",
+        "projectPath": "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\dojo\\dojo.csproj",
+        "packagesPath": "C:\\Users\\AlexanderKlintworth\\.nuget\\packages\\",
+        "outputPath": "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\dojo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TobiasAlscher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AlexanderKlintworth\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -110,7 +111,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/Tiplu/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {

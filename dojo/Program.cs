@@ -9,12 +9,12 @@ namespace dojo
         {
             var sb = new StringBuilder(1, 8);
 
-            if (number % 3 == 0)
+            if (number % 3 == 0 || number % 10 == 3 || number / 10 == 3)
             {
                 sb.Append("Fizz");
             }
 
-            if (number % 5 == 0)
+            if (number % 5 == 0 || number % 10 == 5 || number / 10 == 5)
             {
                 sb.Append("Buzz");
             }
@@ -27,17 +27,17 @@ namespace dojo
             return sb.ToString();
         }
     }
-    class Program
+
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             FizzBuzzer fb = new FizzBuzzer();
-            for(int i=0; i<=100; i++)
+            for (int i = 0; i <= 100; i++)
             {
                 Console.WriteLine(fb.FizzBuzz(i));
             }
             Console.ReadLine();
         }
-
     }
 }

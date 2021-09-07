@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\TobiasAlscher\\.nuget\\packages\\": {},
+    "C:\\Users\\AlexanderKlintworth\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\dojo\\dojo.csproj",
+      "projectUniqueName": "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\dojo\\dojo.csproj",
       "projectName": "dojo",
-      "projectPath": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\dojo\\dojo.csproj",
-      "packagesPath": "C:\\Users\\TobiasAlscher\\.nuget\\packages\\",
-      "outputPath": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\dojo\\obj\\",
+      "projectPath": "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\dojo\\dojo.csproj",
+      "packagesPath": "C:\\Users\\AlexanderKlintworth\\.nuget\\packages\\",
+      "outputPath": "C:\\Tiplu\\DevDa\\Tiplu.Dojo\\dojo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\TobiasAlscher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AlexanderKlintworth\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,7 +33,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/Tiplu/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
