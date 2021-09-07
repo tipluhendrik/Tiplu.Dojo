@@ -1648,6 +1648,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "dojo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/dojo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dojo.dll": {}
+        }
       }
     }
   },
@@ -5611,30 +5621,41 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "dojo/1.0.0": {
+      "type": "project",
+      "path": "../dojo/dojo.csproj",
+      "msbuildProject": "../dojo/dojo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "coverlet.collector >= 1.3.0",
+      "dojo >= 1.0.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Phillip Rommel\\.nuget\\packages\\": {}
+    "C:\\Users\\TobiasAlscher\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Tiplu\\Tiplu.Dojo\\Dojo.Tests\\Dojo.Tests.csproj",
+      "projectUniqueName": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\Dojo.Tests\\Dojo.Tests.csproj",
       "projectName": "Dojo.Tests",
-      "projectPath": "C:\\Tiplu\\Tiplu.Dojo\\Dojo.Tests\\Dojo.Tests.csproj",
-      "packagesPath": "C:\\Users\\Phillip Rommel\\.nuget\\packages\\",
-      "outputPath": "C:\\Tiplu\\Tiplu.Dojo\\Dojo.Tests\\obj\\",
+      "projectPath": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\Dojo.Tests\\Dojo.Tests.csproj",
+      "packagesPath": "C:\\Users\\TobiasAlscher\\.nuget\\packages\\",
+      "outputPath": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\Dojo.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Phillip Rommel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TobiasAlscher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5647,7 +5668,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\dojo\\dojo.csproj": {
+              "projectPath": "C:\\Tiplu\\Neuer Ordner\\Tiplu.Dojo\\dojo\\dojo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5696,7 +5721,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

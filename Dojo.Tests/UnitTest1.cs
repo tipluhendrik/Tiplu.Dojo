@@ -1,3 +1,4 @@
+using dojo;
 using System;
 using System.Text;
 using Xunit;
@@ -20,9 +21,12 @@ namespace Dojo.Tests
         [InlineData(10, "Buzz")]
         [InlineData(11, "11")]
         [InlineData(12, "Fizz")]
-        [InlineData(13, "13")]
+        [InlineData(13, "Fizz")]
         [InlineData(14, "14")]
         [InlineData(15, "FizzBuzz")]
+        [InlineData(37, "Fizz")]
+        [InlineData(52, "Buzz")]
+        [InlineData(53, "FizzBuzz")]
         public void Test1(int number, string expectedResult)
         {
             var fizzBuzzer = new FizzBuzzer();
@@ -32,29 +36,6 @@ namespace Dojo.Tests
             Assert.Equal(expectedResult, result);
         }
 
-        public class FizzBuzzer
-        {
-            public string FizzBuzz(int number)
-            {
-                var sb = new StringBuilder(1, 8);
-
-                if (number % 3 == 0)
-                {
-                    sb.Append("Fizz");
-                }
-
-                if (number % 5 == 0)
-                {
-                    sb.Append("Buzz");
-                }
-
-                if (sb.Length == 0)
-                {
-                    sb.Append(number);
-                }
-
-                return sb.ToString();
-            }
-        }
+        
     }
 }
